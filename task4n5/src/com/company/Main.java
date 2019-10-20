@@ -15,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Main BankID = new Main();
+        Main bankID = new Main();
         int option;
 
         do {
@@ -34,18 +34,20 @@ public class Main {
 
             switch (option) {
                 case 1:
-                    BankID.newAccount();
+                    bankID.newAccount();
                     break;
                 case 2:
-                    BankID.viewAccount();
+                    bankID.viewAccount();
                     break;
                 case 3:
-                    BankID.deposit();
+                    bankID.deposit();
                     break;
                 case 4:
-                    BankID.withdraw();
+                    bankID.withdraw();
                     break;
-                default:
+                case 5:
+                    break;
+                    default:
                     System.out.println(">> Not A Valid Option ");
             }
         } while (option != 5);
@@ -57,15 +59,16 @@ public class Main {
         System.out.println("Enter the following details: ");
         System.out.println();
         System.out.println("Full Name: ");
-        name = input.nextLine();
+        name = input.next();
         System.out.println("Address: ");
-        address = input.nextLine();
+        address = input.next();
         System.out.println("Age: ");
         age = input.nextInt();
         System.out.println("Personummer: ");
         personummer = input.nextLong();
         System.out.print("Phone Number: ");
         phoneNumber = input.nextLong();
+        created = true;
         System.out.println("Thanks. Your details have been saved.");
     }
 
