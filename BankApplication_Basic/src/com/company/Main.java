@@ -1,10 +1,10 @@
 package com.company;
-
 import java.util.Scanner;
 
 public class Main {
 
     public static final Scanner input = new Scanner(System.in);
+    public static final Scanner stringInput = new Scanner(System.in);
     public String name;
     public int age;
     public long personummer;
@@ -15,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Main bankID = new Main();
+        Main BankID = new Main();
         int option;
 
         do {
@@ -34,20 +34,20 @@ public class Main {
 
             switch (option) {
                 case 1:
-                    bankID.newAccount();
+                    BankID.newAccount();
                     break;
                 case 2:
-                    bankID.viewAccount();
+                    BankID.viewAccount();
                     break;
                 case 3:
-                    bankID.deposit();
+                    BankID.deposit();
                     break;
                 case 4:
-                    bankID.withdraw();
+                    BankID.withdraw();
                     break;
                 case 5:
                     break;
-                    default:
+                default:
                     System.out.println(">> Not A Valid Option ");
             }
         } while (option != 5);
@@ -59,12 +59,12 @@ public class Main {
         System.out.println("Enter the following details: ");
         System.out.println();
         System.out.println("Full Name: ");
-        name = input.next();
+        name = stringInput.nextLine();
         System.out.println("Address: ");
-        address = input.next();
+        address = stringInput.nextLine();
         System.out.println("Age: ");
         age = input.nextInt();
-        System.out.println("Personummer: ");
+        System.out.print("Personummer: ");
         personummer = input.nextLong();
         System.out.print("Phone Number: ");
         phoneNumber = input.nextLong();
@@ -76,9 +76,9 @@ public class Main {
         if (created) {
             System.out.println("View Account");
             System.out.println("Full Name: " + name);
+            System.out.println("Address: " + address);
             System.out.println("Age: " + age);
             System.out.println("Personummer: " + personummer);
-            System.out.println("Address: " + address);
             System.out.println("Phone Number: " + phoneNumber);
             System.out.println("Amount: " + amount);
         } else System.out.println("First create an account");
