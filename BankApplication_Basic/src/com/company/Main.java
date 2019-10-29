@@ -19,7 +19,7 @@ public class Main {
         int option;
 
         do {
-            System.out.println("- - - - Welcome to Bank of Hkr - - - -");
+            System.out.println("- - - - Welcome to the Bank of Hkr - - - -");
             System.out.println();
             System.out.println("1) New account");
             System.out.println("2) View account");
