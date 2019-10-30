@@ -12,9 +12,15 @@ public class Card {
         return senderName;
     }
 
-    public ArrayList<Card> cardsArray = new ArrayList<Card>();
-
-    public ArrayList<Card> getCardsArray() {
-        return cardsArray;
+    @Override
+    public String toString() {
+        return "Card{" +
+                "senderName='" + senderName + '\'' +
+                ", Anna=" + Anna +
+                ", Kalle=" + Kalle +
+                '}';
     }
+
+    HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
+    HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
 }

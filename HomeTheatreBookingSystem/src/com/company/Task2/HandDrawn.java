@@ -16,8 +16,4 @@ public class HandDrawn extends Card {
         this.niceDrawing = niceDrawing;
     }
 
-    HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
-    HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
-
-
 }

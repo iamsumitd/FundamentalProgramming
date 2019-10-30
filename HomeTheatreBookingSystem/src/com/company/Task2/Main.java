@@ -1,19 +1,19 @@
 package com.company.Task2;
-
-import java.awt.image.AreaAveragingScaleFilter;
 import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
 
-    Main myApp = new Main();
-
     public static void main (String [] args){
 
-        myApp.printAll();
+        Main myApp = new Main();
+
     }
     public void printAll (ArrayList<Card> cardArrayList){
         System.out.println(cardArrayList);
     }
-
 }
+
+
+//public ArrayList<Card> cardsArray = new ArrayList<Card>();
+//HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
+//    HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
