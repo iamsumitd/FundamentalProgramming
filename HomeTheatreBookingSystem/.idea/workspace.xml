@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c9bb65ce-0344-4044-92ad-ed57218f98a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Task2/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task2/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Task2/HandDrawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task2/HandDrawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task2/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,12 +36,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Task2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,16 +50,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Task2/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#188#189#0" expanded="true" />
                 <element signature="e#232#233#0" expanded="true" />
                 <element signature="e#269#270#0" expanded="true" />
                 <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#312#318#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Task2/HandDrawn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="85">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding>
                 <element signature="e#135#136#0" expanded="true" />
                 <element signature="e#169#170#0" expanded="true" />
@@ -102,8 +102,8 @@
         <option value="$PROJECT_DIR$/src/com/company/Task4/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Task1/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Task2/HandDrawn.java" />
         <option value="$PROJECT_DIR$/src/com/company/Task2/Card.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Task2/HandDrawn.java" />
         <option value="$PROJECT_DIR$/src/com/company/Task2/Main.java" />
       </list>
     </option>
@@ -114,10 +114,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="641" />
-    <option name="width" value="732" />
-    <option name="height" value="733" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572452758852" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572524401341" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -173,6 +174,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java Programming\[GitHub]\FundamentalProgramming\HomeTheatreBookingSystem\src\com\company\Task2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Card">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Card" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Task2.Card" />
       <module name="PracticeJavaExam" />
@@ -212,8 +218,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Card" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Card" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +236,7 @@
       <workItem from="1572104326065" duration="1008000" />
       <workItem from="1572334700717" duration="5653000" />
       <workItem from="1572353754542" duration="13367000" />
-      <workItem from="1572424997856" duration="6770000" />
+      <workItem from="1572424997856" duration="11435000" />
     </task>
     <task id="LOCAL-00001" summary="Application build completed.">
       <created>1572367192203</created>
@@ -253,17 +259,32 @@
       <option name="project" value="LOCAL" />
       <updated>1572452401310</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Application build completed.">
+      <created>1572452747451</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572452747451</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Application build completed.">
+      <created>1572452820035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572452820035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26798000" />
+    <option name="totallyTimeSpent" value="31463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="641" y="0" width="732" height="735" extended-state="0" />
+    <frame x="641" y="0" width="732" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8077754" visible="true" weight="0.20982143" />
-      <window_info id="Structure" order="1" sideWeight="0.19222462" side_tool="true" visible="true" weight="0.20982143" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80923694" visible="true" weight="0.17559524" />
+      <window_info id="Structure" order="1" sideWeight="0.19076306" side_tool="true" visible="true" weight="0.17559524" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -271,7 +292,7 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.23089701" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.17" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -365,26 +386,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Task2/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#312#318#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Task2/HandDrawn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
             <element signature="e#135#136#0" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />
@@ -394,14 +399,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Task2/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Task2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
           </folding>
         </state>
       </provider>
