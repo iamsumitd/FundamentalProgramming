@@ -11,8 +11,7 @@ public class Card {
     public String getSenderName() {
         return senderName;
     }
-<<<<<<< HEAD
-=======
+
 
     @Override
     public String toString() {
@@ -25,8 +24,5 @@ public class Card {
 
     HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
     HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
-<<<<<<< HEAD
->>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
-=======
->>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
+
 }
