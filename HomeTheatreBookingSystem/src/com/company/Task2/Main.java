@@ -1,17 +1,26 @@
 package com.company.Task2;
+<<<<<<< HEAD
 
 import java.lang.reflect.Array;
+=======
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
 import java.util.ArrayList;
 
 public class Main {
 
+<<<<<<< HEAD
     public ArrayList<Card> cardsList = new ArrayList<>();
 
+=======
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
     public static void main (String [] args){
 
         Main myApp = new Main();
 
+<<<<<<< HEAD
         //myApp.printing(cardsList);
+=======
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
     }
     public void printAll (ArrayList<Card> cardArrayList){
         System.out.println(cardArrayList);
@@ -21,6 +30,7 @@ public class Main {
         cardsList.add(0, sender1);
         cardsList.add(1, sender2);
     }
+<<<<<<< HEAD
 
     public void printing(ArrayList<Card> cardsList) {
         System.out.println(cardsList);
@@ -30,3 +40,11 @@ public class Main {
 /*HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
     HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
 */
+=======
+}
+
+
+//public ArrayList<Card> cardsArray = new ArrayList<Card>();
+//HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
+//    HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba

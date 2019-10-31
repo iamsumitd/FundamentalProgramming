@@ -15,4 +15,8 @@ public class HandDrawn extends Card {
     public void setNiceDrawing(boolean niceDrawing) {
         this.niceDrawing = niceDrawing;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
 }

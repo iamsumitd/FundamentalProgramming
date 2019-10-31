@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9bb65ce-0344-4044-92ad-ed57218f98a0" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
       <change beforePath="$PROJECT_DIR$/src/com/company/Task2/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task2/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Task2/HandDrawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task2/HandDrawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task2/Main.java" afterDir="false" />
@@ -36,12 +39,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Task2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#569#570#0" expanded="true" />
                 <element signature="e#614#615#0" expanded="true" />
+=======
+            <state relative-caret-position="58">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
               </folding>
             </state>
           </provider>
@@ -50,6 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Task2/Card.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="221">
               <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
@@ -57,6 +69,15 @@
                 <element signature="e#232#233#0" expanded="true" />
                 <element signature="e#269#270#0" expanded="true" />
                 <element signature="e#302#303#0" expanded="true" />
+=======
+            <state relative-caret-position="68">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
               </folding>
             </state>
           </provider>
@@ -65,13 +86,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Task2/HandDrawn.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="85">
               <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+=======
+            <state relative-caret-position="442">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
               <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,11 +140,18 @@
       <select />
     </treeState>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1040" />
+    <option name="width" value="1528" />
+    <option name="height" value="1407" />
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,13 +192,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572524401341" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572452758852" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -236,7 +275,12 @@
       <workItem from="1572104326065" duration="1008000" />
       <workItem from="1572334700717" duration="5653000" />
       <workItem from="1572353754542" duration="13367000" />
+<<<<<<< HEAD
       <workItem from="1572424997856" duration="11435000" />
+=======
+      <workItem from="1572424997856" duration="6770000" />
+      <workItem from="1572462065811" duration="2920000" />
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
     </task>
     <task id="LOCAL-00001" summary="Application build completed.">
       <created>1572367192203</created>
@@ -277,6 +321,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="31463000" />
   </component>
   <component name="ToolWindowManager">
@@ -285,6 +330,15 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80923694" visible="true" weight="0.17559524" />
       <window_info id="Structure" order="1" sideWeight="0.19076306" side_tool="true" visible="true" weight="0.17559524" />
+=======
+    <option name="totallyTimeSpent" value="29718000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1040" y="0" width="1528" height="1407" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8064516" visible="true" weight="0.10490463" />
+      <window_info id="Structure" order="1" sideWeight="0.19354838" side_tool="true" visible="true" weight="0.10490463" />
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -299,7 +353,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32949308" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -311,12 +365,38 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.32890856" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32970026" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32833788" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Application build completed." />
@@ -333,6 +413,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-10/lib/src.zip!/java.base/java/util/Scanner.java">
@@ -386,6 +470,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/company/Task2/HandDrawn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -395,12 +480,35 @@
             <element signature="e#169#170#0" expanded="true" />
             <element signature="e#224#225#0" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
+=======
+    <entry file="jar://C:/Program Files/Java/jdk-10/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3723">
+          <caret line="244" column="18" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
+          <folding>
+            <element signature="e#10225#10226#0" expanded="true" />
+            <element signature="e#10308#10309#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Task2/Card.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Task2/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
@@ -408,18 +516,35 @@
             <element signature="e#232#233#0" expanded="true" />
             <element signature="e#269#270#0" expanded="true" />
             <element signature="e#302#303#0" expanded="true" />
+=======
+        <state relative-caret-position="442">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Task2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#569#570#0" expanded="true" />
             <element signature="e#614#615#0" expanded="true" />
+=======
+        <state relative-caret-position="58">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+>>>>>>> a875eea3b625800521ff0038ba0ec700f12fd7ba
           </folding>
         </state>
       </provider>
