@@ -8,6 +8,11 @@ public class Card {
         this.senderName = senderName;
     }
 
+    @Override
+    public String toString() {
+        return  "Sender: " + senderName + '\'';
+    }
+
     public String getSenderName() {
         return senderName;
     }

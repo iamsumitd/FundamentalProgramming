@@ -2,18 +2,28 @@ package com.company.Task2;
 
 public class HandDrawn extends Card {
 
-    private boolean niceDrawing;
+    public boolean niceDrawing;
     public HandDrawn(String senderName, boolean niceDrawing) {
         super(senderName);
         this.niceDrawing = niceDrawing;
     }
 
     public boolean isNiceDrawing() {
-        return niceDrawing;
+        return isNiceDrawing();
     }
 
     public void setNiceDrawing(boolean niceDrawing) {
         this.niceDrawing = niceDrawing;
     }
 
+    public String toString(boolean isNiceDrawing, String isNice) {
+
+        if (isNiceDrawing) {
+            isNice = "Yes, it is a nice drawing";
+        }
+        else {
+            isNice = "No, it's not nice";
+        }
+        return "HandDrawn{" + "" + isNice + '}';
+    }
 }

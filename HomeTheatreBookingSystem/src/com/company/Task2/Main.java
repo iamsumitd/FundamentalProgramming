@@ -3,46 +3,25 @@ import java.util.ArrayList;
 
 public class Main {
 
-    public ArrayList<Card> cardsList = new ArrayList<>();
-
-    public static void main (String [] args){
+    public static void main(String[] args) {
 
         Main myApp = new Main();
 
-    }
-    public void printAll (ArrayList<Card> cardArrayList){
-        System.out.println(cardArrayList);
-
+        ArrayList<Card> cardsList = new ArrayList<>();
         HandDrawn sender1 = new HandDrawn("Anna", true);
         HandDrawn sender2 = new HandDrawn("Kalle", false);
         cardsList.add(0, sender1);
         cardsList.add(1, sender2);
+        HandDrawn obj;
+
+        myApp.displayCardsInfo(cardsList);
+
+
     }
 
-    public void printing(ArrayList<Card> cardsList) {
-            System.out.println(cardsList);
+    public void displayCardsInfo(ArrayList<Card> cardList) {
+        System.out.println("Christmas Card Information:" + cardList.toString());
+
     }
+
 }
-
-
-/* note for myself - First try to use apply this - public void displayCardsInfo(List <Card> cards) {
-    //for-each card in cards
-    //sop(card)
-}*/
-
-    //HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
-    //HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
-
-//myApp.printing(cardsList);
-
-/*HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
-    HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
-*/
-
-//public ArrayList<Card> cardsArray = new ArrayList<Card>();
-//HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
-//    HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
-
-//public ArrayList<Card> cardsArray = new ArrayList<Card>();
-//HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
-//    HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
