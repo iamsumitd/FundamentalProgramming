@@ -12,17 +12,4 @@ public class Card {
         return senderName;
     }
 
-
-    @Override
-    public String toString() {
-        return "Card{" +
-                "senderName='" + senderName + '\'' +
-                ", Anna=" + Anna +
-                ", Kalle=" + Kalle +
-                '}';
-    }
-
-    HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
-    HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
-
 }

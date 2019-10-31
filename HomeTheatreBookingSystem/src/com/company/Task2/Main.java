@@ -1,8 +1,5 @@
 package com.company.Task2;
 
-
-import java.lang.reflect.Array;
-
 import java.util.ArrayList;
 
 public class Main {
@@ -14,9 +11,6 @@ public class Main {
     public static void main (String [] args){
 
         Main myApp = new Main();
-
-
-        //myApp.printing(cardsList);
 
     }
     public void printAll (ArrayList<Card> cardArrayList){
@@ -34,21 +28,19 @@ public class Main {
     }
 }
 
+    //HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
+    //HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
+
+//myApp.printing(cardsList);
+
 /*HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
     HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
 */
 
-}
-
-
 //public ArrayList<Card> cardsArray = new ArrayList<Card>();
 //HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
 //    HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
 
-}
-
-
 //public ArrayList<Card> cardsArray = new ArrayList<Card>();
 //HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
 //    HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
-
