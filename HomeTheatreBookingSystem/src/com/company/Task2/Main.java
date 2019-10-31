@@ -1,12 +1,9 @@
 package com.company.Task2;
-
 import java.util.ArrayList;
 
 public class Main {
 
-
     public ArrayList<Card> cardsList = new ArrayList<>();
-
 
     public static void main (String [] args){
 
@@ -22,11 +19,16 @@ public class Main {
         cardsList.add(1, sender2);
     }
 
-
     public void printing(ArrayList<Card> cardsList) {
-        System.out.println(cardsList);
+            System.out.println(cardsList);
     }
 }
+
+
+/* note for myself - First try to use apply this - public void displayCardsInfo(List <Card> cards) {
+    //for-each card in cards
+    //sop(card)
+}*/
 
     //HandDrawn Anna = new HandDrawn(senderName="Anna", niceDrawing=true);
     //HandDrawn Kalle = new HandDrawn(senderName="Kalle", niceDrawing=false);
