@@ -1,7 +1,7 @@
 package com.company.Task4;
 
-
 //under development...
+
 import java.util.Scanner;
 
 public class Main {
@@ -9,7 +9,10 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+        Scanner stringInput = new Scanner(System.in);//opted for a seperate Scanner object to work with Strings. When researched, this turned out to be a known limitation of Java.
+
         String[] queue = new String[100];
+        int counter;
 
         while (true) {
             //Menu
@@ -20,32 +23,38 @@ public class Main {
             System.out.println("Enter option: ");
             int option = input.nextInt();
 
-            int counter=0; //why can't I define the variable here and use it in the for loop
+
+            //why can't I define the variable: "int counter;" here and use it in the for loop
             if (option == 1) {
+                //for (counter = 0; counter < queue.length; counter++) {
 
-                for (counter < queue.length; counter++) {
-                    System.out.println("Enter your name: ");
+                System.out.println("Enter your name: ");
+                String name = stringInput.nextLine();
 
-                  while (queue[counter]!=null)
-                  {counter++;}
-
-                  queue[counter] = input.nextLine();
-
-                }
-            }else if(option == 2){
-
-                for (int newCounter = 0; newCounter<queue.length; newCounter--){
-                    queue[counter-1] =
+                for (counter = 0; counter < queue.length; counter++) {
+                    if (queue[counter] == null) {
+                        queue[counter] = name;
+                        break;
+                    }
                 }
 
+            } else if (option == 2) {
 
-                System.out.println("Now serving: "+queue[0]);
-                queue[0] = null;
+                if (queue[0] == null) {
+                    System.out.println("No visitors in queue");
+                } else {
+                    System.out.println("Now serving: " + queue[0]);//maybe this should be after the following for loop
+                    //int n = 100;
+                    //int d = 1;
+                    queue[0] = null;
+                    for (int i = 0; i < (queue.length) - 1; i++) {
+                        queue[i] = queue[i + 1];
+                    }
 
-
-
+                }
             }
 
         }
     }
 }
+
