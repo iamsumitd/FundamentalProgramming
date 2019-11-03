@@ -16,6 +16,15 @@ public class HandDrawn extends Card {
         this.niceDrawing = niceDrawing;
     }
 
+    @Override
+    public String toString() {
+        return "Sender Name: "+
+                senderName + ", Nice Drawing? - " + niceDrawing +"\n";
+    }
+}
+
+
+/*@Override
     public String toString(boolean isNiceDrawing, String isNice) {
 
         if (isNiceDrawing) {
@@ -24,6 +33,4 @@ public class HandDrawn extends Card {
         else {
             isNice = "No, it's not nice";
         }
-        return "HandDrawn{" + "" + isNice + '}';
-    }
-}
+        return "HandDrawn{" + "" + isNice + '}';*/
