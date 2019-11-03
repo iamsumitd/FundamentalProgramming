@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     private Scanner input = new Scanner(System.in);
-    private boolean[][] multiArray = new boolean[3][5];
+    private boolean[][] multiArray = new boolean[3][5]; //what is the difference b/w using "private" modifier here and not using any modifier?
     int rowLength = 3;
     int colLength = 5;
 
@@ -16,8 +16,10 @@ public class Main {
     private void runProgram() {
 
         while (true) {
+
+            //this statement will call the method printMenuAndGetInput() and wait until it gets the return value from it
             int userInput = printMenuAndGetInput();
-            // if user input is 3, set the runningInfinitely = false
+            // this is for the option to exit the program:- if user input is 3, set the runningInfinitely = false
             if (userInput ==1){
                 addBooking();}
             else if (userInput == 2){
@@ -25,6 +27,7 @@ public class Main {
         }
     }
 
+    //this MENU simply prints the following statements and returns the value user inputs
     private int printMenuAndGetInput() {
         System.out.println("----------------");
         System.out.println("1. Book a seat");
@@ -34,10 +37,12 @@ public class Main {
         return input.nextInt();
     }
 
+
     private void addBooking() {
         System.out.println("-----Seat booking-----");
 
         boolean addBookingRunning = true;
+        //main while-loop for the option of SEAT BOOKING
         do {
             boolean rowRunning = true;
             int row;
@@ -61,29 +66,32 @@ public class Main {
                 if ((col < 1) || (col > 5)) {
                     System.out.println("Wrong input! Please enter a number between 1 and 5");
                 } else {
-                    col--;
-                    //multiArray[row][col] = true;
+                    col--;                    //multiArray[row][col] = true;
                     colRunning = false;
                 }
             } while (colRunning);
 
+            //checking if the seat has already been booked
             if (multiArray[row][col] == true) {
                 System.out.println("This seat has already been booked! Please choose another one");
             } else {
-                multiArray[row][col] = true;
-                addBookingRunning = false;
+                multiArray[row][col] = true; //marking the seat as booked successfully
                 System.out.println("The seat has been booked successfully");
+                addBookingRunning = false; //stopping the main while-loop
             }
 
         } while (addBookingRunning);
 
     }
 
+    //method to print VIEW the BOOKINGS
     private void viewBooking() {
 
         System.out.println("   <TV> ");
 
+        //this (main) for-loop iterates through the row's length which is 3 in our program
         for (int i = 0; i < rowLength; i++) {
+            //this inner for-loop iterates through the column's length which is 5 in our program
             for (int j = 0; j < colLength; j++) {
                 if (multiArray[i][j] == true) {
                     System.out.print("O ");

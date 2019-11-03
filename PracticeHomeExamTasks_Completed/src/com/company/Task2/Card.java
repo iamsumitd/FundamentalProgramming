@@ -16,6 +16,7 @@ public class Card {
     public String getSenderName() {
         return senderName;
     }
+
     /*public String output (boolean niceDrawing){
 
         toString();

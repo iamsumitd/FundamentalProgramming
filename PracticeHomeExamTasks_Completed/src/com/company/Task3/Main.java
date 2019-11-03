@@ -15,8 +15,7 @@ public class Main {
         System.out.print("Enter the recipient's initials: ");
         String recipient = input.nextLine();
 
-        String a;
-        a = myApp.presentLabel(sender, recipient);
+        String a = myApp.presentLabel(sender, recipient);
         System.out.println(a);
     }
 
